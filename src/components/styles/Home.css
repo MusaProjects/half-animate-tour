@@ -1,0 +1,23 @@
+.container h6 {
+    color: rgb(251, 138, 10);
+    font-size: 60px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+@media screen and (max-width:575px) {
+
+    .container h6 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:416px) {
+    .container h6 {
+        font-size: 40px;
+    }
+}
