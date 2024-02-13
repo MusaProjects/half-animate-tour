@@ -1,0 +1,30 @@
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: orange;
+    padding-top: 50px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+@media screen and (max-width:740px) {
+    p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    p {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:416px) {
+    p {
+        font-size: 20px;
+    }
+}
